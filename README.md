@@ -3,7 +3,7 @@
 FCS_IoT Patch Tool 1.0.ver             
 **For securing all Android 6.0 devices.**         
 
-***This tool used the File Replace method(Note 4 Edge: SM-N915S only), so other devices must change the SMALI code.**                                  
+***This tool used the File Replace method(onlyt for SM-N915S), so other devices must change the SMALI code.**                                  
 
 
 Contents
