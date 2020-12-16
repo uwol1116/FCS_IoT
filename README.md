@@ -92,9 +92,9 @@ and Smart Interactive Board(Korean Model), and it was completed.
 
 6.Support
 ================
-Contact below e-mail, if you need any help. 
-
-swpark990714@gmail.com
+Contact below e-mail, if you need any help.               
+                 
+swpark990714@gmail.com            
 dudwn03090@gmail.com
 
 7.Authors
