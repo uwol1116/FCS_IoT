@@ -31,7 +31,7 @@ A vulnerability has been identified in Android 6.0 devices (electronic blackboar
 
 2.1. **The opening of the Android Debugging Bridge (ADB) allows access to all users.**
 * **Patch Plan(1)** :            
-Modify the ADB debugging function to ensure that only users with a specific public key can access ADB.
+Modify the ADB debugging function to ensure that only users with a specific public key can access ADB.            
 2.2. **The possibility to install apps with unknown sources can lead to malicious behavior by attackers.**
 * **Patch Plan(2)** :               
 Modify the Package Manager (PM) related functions so that only apps with the public key registered in the pmwhitelist can be installed.
