@@ -3,7 +3,7 @@
 FCS_IoT Patch Tool 1.0.ver             
 **For securing all Android 6.0 devices.**         
 
-***Since this tool used File Replace, versions other than 6.0 require changes in SMALI code.**                                  
+***This tool uses the File Replace method, so other devices must change the SMALI code.**                                  
 
 
 Contents
