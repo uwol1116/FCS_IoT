@@ -21,6 +21,7 @@ Contents
 This is **FCS_IoT Patch Tool** project.           
 This is a type of BOB(Best Of the Best) program belonging to KITRI(Korea Information Technology Research Institute).          
                  
+***Since this tool used File Replace, versions other than 6.0 require changes in SMALI code.**                                  
                  
                  
 2.Description
@@ -34,7 +35,6 @@ Modify the ADB debugging function to ensure that only users with a specific publ
 * **Patch Plan(2)** :               
 Modify the Package Manager (PM) related functions so that only apps with the public key registered in the pmwhitelist can be installed.
 
-***Since the tool is a patch through File Replace, versions other than 6.0 require changes in SMALI code.**                                  
                  
                  
 3.Requirements
