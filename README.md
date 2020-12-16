@@ -27,24 +27,24 @@ This is a type of BOB(Best Of the Best) program belonging to KITRI(Korea Informa
 ==================
 A vulnerability has been identified in Android 6.0 devices (electronic blackboard), so this tool is an automated patch tool that enhances security for these vulnerabilities.
 
-1. **The opening of the Android Debugging Bridge (ADB) allows access to all users.**
+2.1. **The opening of the Android Debugging Bridge (ADB) allows access to all users.**
 * **Patch Plan(1)** :            
 Modify the ADB debugging function to ensure that only users with a specific public key can access ADB.
-2. **The possibility to install apps with unknown sources can lead to malicious behavior by attackers.**
+2.2. **The possibility to install apps with unknown sources can lead to malicious behavior by attackers.**
 * **Patch Plan(2)** :               
 Modify the Package Manager (PM) related functions so that only apps with the public key registered in the pmwhitelist can be installed.
-                 
+
+***Since the tool is a patch through File Replace, versions other than 6.0 require changes in SMALI code.**                                  
                  
                  
 3.Requirements
 ================
 There are several conditions for running Patch Tool.
 
-1)Environment
+3.1.Environment
 -----------------
 OS: Windows 10(64bit)
-
-2)Preparing the Framework
+3.2.Preparing the Framework
 -------------------------
 
 (1) **Install Python 3.5 or higher version.**             
