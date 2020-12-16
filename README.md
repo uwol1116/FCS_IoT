@@ -3,6 +3,8 @@
 FCS_IoT Patch Tool 1.0.ver             
 **For securing all Android 6.0 devices.**         
 
+***Since this tool used File Replace, versions other than 6.0 require changes in SMALI code.**                                  
+
 
 Contents
 ===========
@@ -21,7 +23,6 @@ Contents
 This is **FCS_IoT Patch Tool** project.           
 This is a type of BOB(Best Of the Best) program belonging to KITRI(Korea Information Technology Research Institute).          
                  
-***Since this tool used File Replace, versions other than 6.0 require changes in SMALI code.**                                  
                  
                  
 2.Description
